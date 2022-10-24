@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Taller 1 TS David Burgos</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            
+            <div class="col-1" style="background-color:lightblue"></div>
+            <div class="col-2" style="background-color:lightblue"> 
+                <img src="https://cdn-icons-png.flaticon.com/512/3443/3443580.png" style="width:40px;height:40px;"> Series TV
+            </div>
+            <div class="col-9" style="background-color:lightblue"></div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-1"></div>
+            <div class="col-5">
+
+                <table class="table table-striped">
+
+                    <thread>
+
+                        <tr>
+                            <th scope="col">id</th>
+                            <th scope="col">nombre</th>
+                            <th scope="col">canal</th>
+                            <th scope="col">temporadas</th>
+                        </tr>
+
+                    </thread>
+
+                    <tbody id="series">
+                    </tbody>
+
+                </table>
+
+            </div>
+            <div class="col-5" id="card">
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+
+        <div class="row">
+            
+            <div class="col-1"></div>
+            <div class="col-3" style="background-color:lightblue" id="promedio"> 
+                
+            </div>
+            <div class="col-8"></div>
+
+        </div>
+
+
+    </div>
+  
+    <script type="module" src="./serie.js" ></script>
+    <script type="module" src="./series.js" ></script>
+    <script type="module" src="./main.js"></script>
+
+</body>
+</html>
